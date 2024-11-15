@@ -7,3 +7,20 @@ animation-timing-function: linear;
 animation-iteration-count: infinite;
 animation-play-state: running;
 }
+@keyframes Fish {
+
+0% {left:100px; top:400px;}
+
+20% {left:300px; top:400px;}
+
+40% {left:500px; top:300px;}
+
+50% {left:600px; top:50px;}
+
+60% {left:600px; top:100px;}
+
+80% {left:500px; top:200px;}
+
+}
+
+100% {left:100px; top:400px; transform:scaleX(-1);}
